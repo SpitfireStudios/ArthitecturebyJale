@@ -10,6 +10,7 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <link rel="stylesheet" href="https://use.typekit.net/vme5smb.css">
 <script type="text/javascript" src="main.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 <link href="main.css" rel="stylesheet" type="text/css">
 <link rel="stylesheet" href="./Flickity/flickity.min.css" media="screen">
 
@@ -19,13 +20,15 @@
 
 <body>
 
-    <section style="margin: 0;">
+    <section style="margin: 0; height: 100vh;">
 
         <img class="heroimage" src="./Pictures/2.JPG" alt="heroimage">
 
+        <div class="navbar">
+
         <nav>
             <li> Home </li>
-            <li> Projects </li>
+            <li> <a href="./projects.html">Projects</a> </li>
             <li> About </li>
         </nav>
 
@@ -34,6 +37,8 @@
         <div class="languages">
             <li> Tr </li>
             <li> En </li>
+        </div>
+
         </div>
 
         <h1 style="top: 50%; transform: translate(0, -50%); margin: 0 3rem; position: absolute;"> Art + <br> Architecture </h1>
@@ -92,7 +97,7 @@
 
     </section>
     
-    <section>
+    <section style="height: 100vh;">
 
         <h3 style="margin-bottom: 0rem !important; margin: 4rem; position: relative; float:left;"> Home/Process </h3>
 
@@ -167,7 +172,7 @@
 
     <section style="margin-bottom: 0;">
 
-        <h1 style="top: 2rem; margin: 0 3rem;"> Featured Projects </h1>
+        <h1 style="margin: 3rem"> Featured Projects </h1>
 
         <div class="featured">
             <div class="featuredcard" style="background-image:url(./Pictures/2.JPG);">
@@ -190,28 +195,28 @@
 
     </section>
 
-    <footer>
-        <div class="footercontact">
-            <h4>jalebarahya@jba.com</h4>
-            <h4>+90 534 840 9648</h4>
-        </div>
-        <div class="footerlinks">
-            <div class="footernav">
-            <h4>Home</h4>
-            <h4>Projects</h4>
-            <h4>About</h4>
-            </div>
-            <h4>© 2022 Jale Barahya Mimarlik</h4>
-        </div>
-        <div class="footersocials">
-            <img class="footersociallogos" src="./Pictures/alt facebook.svg" alt="logo">
-            <img class="footersociallogos" src="./Pictures/alt instagram.svg" alt="logo">
-            <img class="footersociallogos" src="./Pictures/alt linkedin.svg" alt="logo">
-        </div>
-    </footer>
-
     <script src="./Flickity/flickity.pkgd.min.js"></script>
 
 </body>
+
+<footer>
+    <div class="footercontact">
+        <h4>jalebarahya@jba.com</h4>
+        <h4>+90 534 840 9648</h4>
+    </div>
+    <div class="footerlinks">
+        <div class="footernav">
+        <h4>Home</h4>
+        <h4>Projects</h4>
+        <h4>About</h4>
+        </div>
+        <h4>© 2022 Jale Barahya Mimarlik</h4>
+    </div>
+    <div class="footersocials">
+        <img class="footersociallogos" src="./Pictures/alt facebook.svg" alt="logo">
+        <img class="footersociallogos" src="./Pictures/alt instagram.svg" alt="logo">
+        <img class="footersociallogos" src="./Pictures/alt linkedin.svg" alt="logo">
+    </div>
+</footer>
 
 </html>
