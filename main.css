@@ -257,6 +257,7 @@ table {
   }
 
   .featuredcard{
+    width: -webkit-fill-available;
     position: relative;
     display: inline-grid;
     background-size: cover;
@@ -327,14 +328,12 @@ table {
   .uniquecardcontainer{
     width: 100%;
     height: auto;
-    display: inline-flex;
     position: relative;
 
   }
 
   .uniquecard {
     width: 50%;
-    height: 100%;
     float: left;
   }
 
@@ -383,6 +382,65 @@ table {
     position: relative;
     display: inline-flex;
     background-size:cover;
+  }
+
+  .floorselection{
+    display: inline-flex;
+  }
+
+  .floors{
+    font-family: sofia-pro, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 1.5vw;
+    color: #DBAF51;
+    margin: 1rem;
+    display: inline-flex;
+  }
+
+  .keyfeatures{
+    display: inline-flex;
+    width: 100%;
+    place-content: center;
+  }
+
+  .keyfeature{
+    font-family: sofia-pro, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 1.5vw;
+    color: #DBAF51;
+    margin: 2rem;
+  }
+
+  .keyfeature > span{
+    font-family: sofia-pro, sans-serif;
+    font-weight: 100;
+    font-size: 1.5vw;
+    font-style: normal;
+    color: #DBAF51;
+    top: 4rem;
+  }
+
+  .materialsbreakdown{
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    text-align: left;
+    align-items: center;
+    margin: 2rem;
+  }
+
+  .materials{
+    margin: 2rem;
+  }
+
+  .materials > span {
+    font-family: sofia-pro, sans-serif;
+    font-weight: 100;
+    font-size: 1.5vw;
+    font-style: normal;
+    color: #DBAF51;
+    top: 4rem;
   }
 
 
