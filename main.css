@@ -385,7 +385,12 @@ table {
   }
 
   .floorselection{
-    display: inline-flex;
+    display: none;
+    /* display: inline-flex; */
+  }
+
+  .roomselection{
+    display: none;
   }
 
   .floors{
@@ -912,7 +917,8 @@ table {
     }
   
     .floorselection{
-      display: inline-flex;
+      display: none;
+      /* display: inline-flex; */
     }
   
     .floors{
