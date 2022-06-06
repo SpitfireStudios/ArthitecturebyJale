@@ -457,7 +457,7 @@ table {
   body { font-family: sans-serif; }
   
   .gallery {
-    height: 80%;
+    height: 60vh;
     width: 50%;
     float: right;
     margin: 3rem;
@@ -477,7 +477,7 @@ table {
 
   /* position dots in gallery */
 .flickity-page-dots {
-    bottom: 0px;
+    bottom: 0;
     text-align: left !important;
   }
   /* white circles */
@@ -495,3 +495,537 @@ table {
   }
 
 
+
+
+    /* HELLO THERE! */
+
+    /* General Kenobi! */
+
+    /* This is mobile-Friendly Styling! */
+
+
+  @media screen and (max-width: 600px)
+
+  {
+
+    body{
+      background-color: #2C363F;
+  }
+  
+  .navbar{
+    height: 6rem;
+    padding: 1rem;
+  }
+  
+  section{
+      position: relative;
+      height: auto;
+      margin: 3rem 0 !important;
+  }
+
+  body > section:nth-child(2){
+    height: 25vh !important;
+  }
+
+  body > section:nth-child(3){
+    height: 50vh !important;
+  }
+  
+  nav{
+      float: left;
+      width: auto;
+      display: flex;
+      list-style: none;
+      color: #DBAF51;
+      font-family: sofia-pro, sans-serif;
+      font-weight: 700;
+      font-size: .5rem;
+      font-style: normal;
+  }
+  
+  a {
+    color: inherit;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: #2C363F;
+    text-decoration: none;
+  }
+  
+  li{
+      margin: 1rem;
+  }
+  
+  h1{
+      font-family: sofia-pro, sans-serif;
+      font-weight: 700;
+      font-size: 6vw;
+      font-style: normal;
+      position: relative;
+      color: #DBAF51;
+      margin: 2rem !important;
+  }
+  
+  h2{
+      font-family: sofia-pro, sans-serif;
+      font-weight: 700;
+      font-size: 2vw;
+      font-style: normal;
+      color: #DBAF51;
+      margin:1rem !important;
+  }
+  
+  h2 > span{
+    font-family: sofia-pro, sans-serif;
+    font-weight: 100;
+    font-size: 2vw;
+    font-style: normal;
+    color: #DBAF51;
+  }
+  
+  h3{
+      font-family: sofia-pro, sans-serif;
+      font-weight: 100;
+      font-style: normal;
+      font-size: 2vw;
+      color: #DBAF51;
+      margin: 1rem !important;
+  }
+  
+  /* Footer ONLY */ 
+  h4{
+    font-family: sofia-pro, sans-serif;
+    font-weight: 700;
+    font-size: 1.5vw;
+    font-style: normal;
+    color: #2C363F;
+    margin: 1rem;
+    cursor: pointer;
+  }
+  
+  /* table element td */ 
+  td{
+      font-family: sofia-pro, sans-serif;
+      font-weight: 700;
+      font-size: 2vw;
+      font-style: normal;
+      color: white;
+      border-bottom: solid;
+      border-width: .1rem 0;
+      border-color: #DBAF51;
+  }
+  
+  /* table row */ 
+  tr{
+      font-family: sofia-pro, sans-serif;
+      font-weight: 700;
+      font-size: 2rem;
+      font-style: normal;
+      color: white;
+      border-bottom: solid;
+      border-width: .1rem 0 !important;
+      border-color: #DBAF51;
+  }
+  
+  hr{
+      color: #DBAF51;
+      border-color: #DBAF51;
+      width: 100%;
+      margin:0;
+      position: absolute;
+  }
+  
+  .logo{
+      position: absolute;
+      width: 2rem;
+      left: 50%;
+      transform: translate(-50%);
+      display: flex;
+  }
+  
+  .languages{
+      float: right;
+      width: auto;
+      display: flex;
+      list-style: none;
+      color: #DBAF51;
+      font-family: sofia-pro, sans-serif;
+      font-weight: 700;
+      font-size: .5rem;
+      font-style: normal;
+  }
+  
+  .heroimage{
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      display: flex;
+      z-index: -1;
+      object-fit: cover;
+      opacity: .5;
+  }
+  
+  .socials{
+      position: absolute;
+      width: 2rem;
+      margin: 3rem;
+      bottom: 0;
+  }
+  
+  .sociallogos{
+      width: 1rem;
+      margin: .5rem;
+      fill: #DBAF51;
+  
+  }
+  
+  table {
+      width: 65%;
+      float: right;
+      position: relative;
+      display: inline-table;
+      margin: 3rem;
+      empty-cells: show;
+  }
+  
+  .process{
+      margin-left: 1rem;
+      width: 30%;
+      text-align: center;
+      vertical-align: middle;
+      clear: left;
+      float: left;
+      display: grid;
+      font-size: 1.5vw;
+  }
+  
+  .processcard{
+      display: grid;
+      width: fit-content;
+  }
+  
+  .circle {
+      font-family: sofia-pro, sans-serif;
+      font-weight: 700;
+      font-size: 1rem;
+      font-style: normal;
+      height: 2rem;
+      width: 2rem;
+      border-color: #DBAF51;
+      fill: none;
+      border-style: solid;
+      border-radius: 50%;
+      border-width: .1rem;
+      color: #DBAF51;
+      float: left;
+      position: relative;
+      display: grid;
+      margin: auto;
+      grid-row: 1/ span 2;
+    }
+  
+    .processcard-text{
+      font-family: sofia-pro, sans-serif;
+      font-weight: 700;
+      font-style: normal;
+      color: #DBAF51;
+      display: inline-grid;
+      margin: 1rem;
+      text-align: left;
+      grid-column: 2;
+    }
+  
+    .processcard-text > span{
+      font-weight: 100;
+    }
+  
+    .title{
+      font-family: sofia-pro, sans-serif;
+      font-weight: 700;
+      font-style: normal;
+      font-size: 2rem;
+      color: #DBAF51;
+      display: inline-grid;
+      margin: 2rem;
+      margin-left: 4rem;
+      text-align: left;
+      grid-column: 2;
+    }
+  
+    .subtitle{
+      font-family: sofia-pro, sans-serif;
+      font-weight: 100;
+      font-style: normal;
+      font-size: 2rem;
+      color: #DBAF51;
+      display: inline-grid;
+      margin: 2rem;
+      margin-left: 4rem;
+      text-align: left;
+      grid-column: 2;
+    }
+  
+    .featured{
+      width: 100%;
+      position: relative;
+      column-width: 25vw;
+      display: inline-grid;
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+      left: 0;
+      bottom: 0;
+    }
+  
+    .featuredcard{
+      width: -webkit-fill-available;
+      position: relative;
+      display: inline-grid;
+      background-size: cover;
+      padding: 0;
+      height: 20vh;
+      opacity: 0.5;
+      transition-duration: 400ms;
+    }
+  
+    .featuredcard:hover{
+      opacity: 1;
+      cursor: pointer;
+      transition-duration: 400ms;
+    }
+  
+    .featuredcard > span{
+      font-family: sofia-pro, sans-serif;
+      font-weight: 700;
+      font-style: normal;
+      font-size: 2vw;
+      color: #DBAF51;
+      transform: rotate(-90deg);
+      position: absolute;
+      bottom: 2rem;
+      left: 0rem;
+    }
+  
+    footer{
+      background-color: #DBAF51;
+      width: 100%;
+      height: 10rem;
+      display: inline-grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      grid-auto-flow: row;
+      place-items: center;
+      position: relative;
+      bottom: 0;
+    }
+    
+    .footernav{
+      display: inline-flex;
+      height: 1rem;
+    }
+  
+    .footerlinks{
+      text-align: center;
+    }
+  
+    .footersociallogos{
+      width: 1rem;
+      margin: 0.5rem;
+    }
+  
+    .unique{
+      display: grid;
+      grid-auto-flow: column;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      place-items: center;
+      text-align: center;
+    }
+  
+    .uniquedescription{
+      height: 80%;
+      margin: 1rem;
+      display: inline-grid;
+    }
+  
+    .uniquecardcontainer{
+      width: 100%;
+      height: auto;
+      position: relative;
+  
+    }
+  
+    .uniquecard {
+      width: 50%;
+      float: left;
+    }
+  
+    .uniquecard > span{
+      font-family: sofia-pro, sans-serif;
+      font-weight: 100;
+      font-size: 2vw;
+      font-style: normal;
+      color: #DBAF51;
+    }
+
+    .uniquecard > img {
+    width: 1rem !important;
+    margin: 1rem !important;
+    }
+  
+    .uniquedescription > span{
+      font-family: sofia-pro, sans-serif;
+      font-weight: 100;
+      font-size: 1.5vw;
+      font-style: normal;
+      color: #DBAF51;
+      top: 2rem;
+      position: relative;
+    }
+  
+    .projectgallery{
+      width: 100vw;
+      position: relative;
+    }
+  
+    .gallerygrid{
+      width: 100vw;
+      height: auto;
+      position: relative;
+      display: inline-grid;
+      grid-auto-flow: row;
+      grid-template-columns: none;
+      grid-template-rows: none;
+      place-items: center;
+    }
+  
+    .gallerygrid > img{
+      height: 15rem;
+      width: 100vw;
+      object-fit: cover;
+    }
+  
+    #gallerymain{
+      width: 100vw;
+      height: 80vh;
+      position: relative;
+      display: inline-flex;
+      background-size:cover;
+      display: none;
+    }
+  
+    .floorselection{
+      display: inline-flex;
+    }
+  
+    .floors{
+      font-family: sofia-pro, sans-serif;
+      font-weight: 700;
+      font-style: normal;
+      font-size: 1.2vw;
+      color: #DBAF51;
+      margin: .5rem;
+      display: inline-flex;
+    }
+  
+    .keyfeatures{
+      display: inline-flex;
+      width: 100%;
+      place-content: center;
+    }
+  
+    .keyfeature{
+      font-family: sofia-pro, sans-serif;
+      font-weight: 700;
+      font-style: normal;
+      font-size: 1.5vw;
+      color: #DBAF51;
+      margin: 1rem;
+    }
+
+    .keyfeature > img{
+      width: 1rem !important;
+    }
+  
+  
+    .keyfeature > span{
+      font-family: sofia-pro, sans-serif;
+      font-weight: 100;
+      font-size: 1.5vw;
+      font-style: normal;
+      color: #DBAF51;
+      top: 4rem;
+    }
+  
+    .materialsbreakdown{
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      text-align: left;
+      align-items: center;
+      margin: 1rem;
+    }
+  
+    .materials{
+      margin: 1rem;
+    }
+  
+    .materials > span {
+      font-family: sofia-pro, sans-serif;
+      font-weight: 100;
+      font-size: 1.5vw;
+      font-style: normal;
+      color: #DBAF51;
+      top: 4rem;
+    }
+  
+  
+      
+  
+  
+  /* flickity carousel CSS */
+  
+  * {
+      -webkit-box-sizing: border-box;
+      box-sizing: border-box;
+    }
+    
+    body { font-family: sans-serif; }
+    
+    .gallery {
+      height: 80%;
+      width: 50%;
+      float: right;
+      margin: 1rem;
+    }
+    
+    .gallery-cell {
+      width: 100%;
+      height: 100%;
+      margin-right: 10px;
+      counter-increment: gallery-cell;
+    }
+  
+    .flickity-button{
+      background: none !important;
+      color: #DBAF51 !important;
+    }
+  
+    /* position dots in gallery */
+  .flickity-page-dots {
+      bottom: 0px !important;
+      text-align: left !important;
+      display: none;
+    }
+    /* white circles */
+    .flickity-page-dots .dot {
+      width: 12px;
+      height: 12px;
+      opacity: 1;
+      background: transparent;
+      border: 2px solid;
+      border-color: #DBAF51;
+    }
+    /* fill-in selected dot */
+    .flickity-page-dots .dot.is-selected {
+      background: #DBAF51;
+    }
+    
+
+  }
